@@ -17,6 +17,7 @@ export default class Home extends Component{
                         <Movielistdisplay />
                     </div>
                     <div className="right">
+                        <MovieFilter/>
 
                     </div>
                 </div>
