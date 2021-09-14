@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import Home from './screens/home/Home';
-
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import NotFound from './common/NotFound';
+import 'typeface-roboto';
 ReactDOM.render(
-  <Home/>,
+  <HBrowserRouter/>,
   document.getElementById('root')
 );
 
